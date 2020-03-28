@@ -1,0 +1,784 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+	background-color: #222222;
+}
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.navegacao .wrapper ul li a:link {
+	text-decoration: none;
+	color: white;
+}	
+
+.navegacao .wrapper ul li a:visited {
+    color: white;
+}
+
+.navegacao .wrapper ul li a:hover {
+	color: #FFCC00;
+	transition: .3s;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	animation-name: enunciado;
+	animation-duration: 2s;
+}
+
+.navegacao{
+	background-color: black;
+	color: white;
+}
+
+.navegacao ul{
+	font-family: roboto;
+	font-weight: 400;
+	text-transform: uppercase;
+	
+	height: 50px;
+	margin-top: 0px;
+	list-style: none;
+	text-align: right;
+
+}
+
+.navegacao li{
+	font-size: 14px;
+	line-height: 50px;
+
+	display:inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	animation-name: enunciado;
+	animation-duration: 2s;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: none;
+}
+
+.Cv{
+	color: white;
+}
+
+.Cv h1{
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-family: Passion One;
+	color:#e91e63;
+
+	margin-top: 50px;
+}
+
+.Cv h2{
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: 300;
+
+	margin-top: -40px;
+}
+
+.txt-enunc{ 
+	vertical-align: top;
+	font-family: Roboto;
+	font-weight: 200;
+	font-size: 18;
+}
+
+.nome h1{
+	font-size: 50px;
+	font-family: Passion One;
+	font-weight: 200;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-top: 70px;
+}
+
+.descricao-nome h3{
+	font-family: Roboto ;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 10px;
+	color: white;
+	max-width: 1500px;
+}
+
+
+.img-perfil img{
+	max-width: 300px;
+	margin-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+
+	float: left;
+
+	animation-name: fotos;
+	animation-duration: 2s;
+}
+
+.dividir2{
+	margin-top: 80px;
+}
+
+.Formacao { 
+	font-family: Roboto;
+	color: white;
+}
+
+.Formacao h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.Formacao h4{
+	font-weight: 200;
+	margin-top: 20px;
+	color: #FFCC00;	
+}
+
+.Formacao h2{
+	margin-top: -20px;
+	font-weight: 400;
+}
+
+.cursos {
+	font-family: Roboto;
+}
+
+.cursos h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-bottom: 10px;
+}
+
+.cursos h2{
+	font-weight: 400;
+	margin-top: -10px;
+	color: white;
+}
+
+.cursos h4{
+	font-weight: 200;
+	margin-top: -20px;
+	color: #FFCC00;
+}
+
+.Habilidades{
+	font-family: Roboto;
+}
+
+.Habilidades h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-bottom: 10px;
+}
+
+.Habilidades h2{
+	font-weight: 400;
+	margin-top: -10px;
+	color: white;
+}
+
+.Habilidades h4{
+	font-weight: 200;
+	margin-top: -20px;
+	color: #FFCC00;
+}
+
+.Experiencia {
+	font-family: Roboto;
+}
+
+.Experiencia h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-bottom: -15px;
+}
+
+.Experiencia h2{
+	margin-top: -20px;
+	font-weight: 400;
+	color: white;
+}
+
+.Experiencia h3{
+	 margin-top: -20px;
+	font-weight: 300;
+	color: #FFCC00;
+}
+
+.Experiencia h4{
+	font-weight: 200;
+	margin-top: 20px;
+	color: white;
+}
+
+.Contato {
+	font-family: Roboto;
+}
+
+.Contato h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-bottom: 10px;
+}
+
+.Contato h3{
+	margin-top: -10px;
+}
+
+@keyframes fotos{
+	0% {opacity: 0; transform:translate(-20px,0px)}
+	100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@keyframes enunciado{
+	0% {opacity: 0; transform:translate(-20px,0px)}
+	100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@media (max-width: 800px) {
+	
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.Cv h1{
+	margin-top: 15px;
+	margin-left: 15px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	line-height: 0.9;
+}
+
+.Cv h2{
+	margin-left: 15px;
+}
+
+.Conteudo{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 80%;
+}	
+
+.img-perfil img{
+	float: none;
+	max-width: 100%;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+.dividir{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.dividir2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 52px;
+}
+
+.img-perfil{
+	max-width: 40%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	float: left;
+}
+
+.nome h1{
+	margin-top: 60px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.descricao-nome h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -25px;
+	color: #ffffff;
+	font-weight: 200;
+}
+
+.Formacao h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+.Formacao h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+	color: #FFCC00;
+}
+
+.Formacao h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Habilidades h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.cursos h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Experiencia h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #FFCC00;
+}
+
+.Experiencia h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	color: #ffffff;
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+@media (max-width: 414px) {
+	
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.Cv h1{
+	margin-top: 15px;
+	margin-left: 15px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	line-height: 0.9;
+}
+
+.Cv h2{
+	margin-left: 15px;
+}
+
+.Conteudo{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 80%;
+}	
+
+.img-perfil img{
+	float: none;
+	max-width: 100%;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+.dividir{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.img-perfil{
+	max-width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+}
+
+.txt-enunc h1{
+	margin-top: -25px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.txt-enunc h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -25px;
+	color: #ffffff;
+	font-weight: 200;
+}
+
+.Formacao h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -70px;
+}
+
+.Formacao h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+	color: #FFCC00;
+}
+
+.Formacao h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Habilidades h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.cursos h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Experiencia h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #FFCC00;
+}
+
+.Experiencia h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	color: #ffffff;
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+@media (max-width: 320px) {
+	
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.Cv h1{
+	margin-top: 15px;
+	margin-left: 15px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	line-height: 0.9;
+}
+
+.Cv h2{
+	margin-left: 15px;
+}
+
+.Conteudo{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 80%;
+}	
+
+.img-perfil img{
+	float: none;
+	max-width: 100%;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+.dividir{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.img-perfil{
+	max-width: 100%;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+}
+
+.txt-enunc h1{
+	margin-top: -25px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.txt-enunc h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -25px;
+	color: #ffffff;
+	font-weight: 200;
+}
+
+.Formacao h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -60px;
+}
+
+.Formacao h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+	color: #FFCC00;
+}
+
+.Formacao h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Habilidades h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Habilidades h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.cursos h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: #FFCC00;
+}
+
+.cursos h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h1{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.Experiencia h2{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #ffffff;
+}
+
+.Experiencia h3{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: -20px;
+	color: #FFCC00;
+}
+
+.Experiencia h4{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+	color: #ffffff;
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+}

@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+	background-color: #222222;
+	color: white;
+}
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: #FFCC00;
+	transition: .3s;
+}
+
+.navegacao{
+	background-color: black;
+	color: white;
+	height: 50px;
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+
+	animation-name: enunciado;
+	animation-duration: 2s;
+}
+
+.navegacao ul{
+	font-family: roboto;
+	font-weight: 400;
+	text-transform: uppercase;
+
+	height: 50px;
+	margin-top: 0px;
+	list-style: none;
+	text-align: right;
+}
+
+.navegacao li{
+	font-size: 14px;
+	line-height: 50px;
+
+	display:inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: none;
+}
+
+.enunciado {
+	font-family: Roboto;
+}
+
+.enunciado h1{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 50px;
+	letter-spacing: 1px;
+	color:#e91e63;
+
+	margin-top: 50px;
+	
+}
+
+.enunciado h2{
+	font-size: 18px;
+	font-weight: 200;
+	margin-top: -40px;
+	padding-bottom: 0px;
+}
+
+.icone-whats{
+	position: absolute;
+	margin-top: 0px;
+	float: left;
+}
+
+.telefone {
+	position: relative;
+	margin-left: 30px;
+	margin-top: -15px;
+	font-size: 15px;
+    font-weight: 200; 
+    font-family: roboto;
+}
+
+.icone-mail{
+	margin-top: 30px;
+	float: left;
+}
+
+.email {
+	position: relative;
+	margin-left: 30px;
+	font-size: 15px;
+    font-weight: 200;
+	margin-top: -20px;
+	font-family: roboto;
+}
+
+.Redes-Sociais {
+	font-family: Roboto;
+	font-size: 30px;
+}
+
+.enunc-redes h2{
+	font-family: Passion One;
+	font-weight: 200;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color:#e91e63;
+	margin-top: 20px;
+}
+
+.icone-face {
+	margin-top: -30px;
+	float: left;
+	margin-left: 0px;
+}
+
+.txt-facebook h3{
+	position: relative;
+	margin-left: 30px;
+	font-size: 15px;
+    font-weight: 200;
+	margin-top: -20px;
+}
+
+.icone-insta{
+	float: left;
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+.txt-insta h3{
+	position: relative;
+	margin-left: 30px;
+	font-size: 15px;
+    font-weight: 200;
+	margin-top: -28px;
+}
+
+.icone-behance {
+	float: left;
+	margin-top: 22px;
+	margin-left: -175px;
+}
+
+.txt-behance h3 {
+	position: relative;
+	margin-left: 30px;
+	font-size: 15px;
+    font-weight: 200;
+	margin-top: 46px;
+}
+
+.Redes-Sociais .dividir{
+	margin-top: 90px;
+	margin-left: 0px;
+}
+
+
+@keyframes enunciado{
+	0% {opacity: 0; transform:translate(-20px,0px)}
+	100% {opacity: 1; transform:translate(0px,0px)}
+}
+
+@media (max-width: 800px) {
+
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.enunciado{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunciado h1{
+	margin-top: 30px;
+}
+
+.icone-whats {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0px;
+}
+
+.icone-mail{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.email{
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+.dividir{
+	margin-top: 100px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunc-redes{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.icone-face{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -30px;
+}
+
+.txt-facebook{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.icone-insta{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.txt-insta{
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-top: -7px;
+}
+
+.icone-behance{
+	margin-left: -202px;
+	margin-top: 22px;
+}
+
+.txt-behance{
+	margin-right: 59px;
+	margin-left: 17px;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+
+.Redes-Sociais .dividir{
+	margin-left: 12px;
+	margin-top: 90px;
+	margin-right: 12px;
+
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+@media (max-width: 414px) {
+
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.enunciado{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunciado h1{
+	margin-top: 30px;
+}
+
+.icone-whats {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0px;
+}
+
+.icone-mail{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.email{
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+.dividir{
+	margin-top: 100px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunc-redes{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.icone-face{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -30px;
+}
+
+.txt-facebook{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.icone-insta{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.txt-insta{
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-top: -7px;
+}
+
+.icone-behance{
+	margin-left: -202px;
+	margin-top: 22px;
+}
+
+.txt-behance{
+	margin-right: 59px;
+	margin-left: 17px;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+
+.Redes-Sociais .dividir{
+	margin-left: 12px;
+	margin-top: 90px;
+	margin-right: 12px;
+
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+@media (max-width: 320px) {
+
+.navegacao li{
+	display: none;
+	margin-right: -20px;
+}
+
+.navegacao .wrapper li.menu-responsivo{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.enunciado{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunciado h1{
+	margin-top: 30px;
+}
+
+.icone-whats {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 0px;
+}
+
+.icone-mail{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.email{
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+.dividir{
+	margin-top: 100px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.enunc-redes{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.icone-face{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -30px;
+}
+
+.txt-facebook{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.icone-insta{
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: -10px;
+}
+
+.txt-insta{
+	margin-right: 15px;
+	margin-left: 0px;
+	margin-top: -7px;
+}
+
+.icone-behance{
+	margin-left: -202px;
+	margin-top: 22px;
+}
+
+.txt-behance{
+	margin-right: 59px;
+	margin-left: 17px;
+}
+
+.menujs{
+	height: auto;
+}
+
+.menujs ul{
+	height: auto;
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	align-items: center;
+}
+
+.menujs li{
+	display: block;
+	width: 100%
+	padding: 0;
+}
+
+
+.Redes-Sociais .dividir{
+	margin-left: 12px;
+	margin-top: 90px;
+	margin-right: 12px;
+
+}
+
+@keyframes navegacao{
+	0% {opacity: none;}
+}
+
+}
