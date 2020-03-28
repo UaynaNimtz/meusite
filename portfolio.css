@@ -95,7 +95,7 @@ a:hover{
 .miniatura1 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/capa-brave.png");
+	background-image: url("img/capa-chacal.jpg");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
@@ -108,7 +108,7 @@ a:hover{
 .miniatura2 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/socialmidia01.jpg");
+	background-image: url("img/capa-allfit.png");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
@@ -121,12 +121,11 @@ a:hover{
 .miniatura3 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/site-beneficio01.jpg");
+	background-image: url("img/capa-arig.png");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
 
-	background-position-x: -40px;
 	background-size: cover;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -135,12 +134,11 @@ a:hover{
 .miniatura4 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/app-beneficio01.jpg");
+	background-image: url("img/capa-rafaguerra.png");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
 
-	background-position-x: -40px;
 	background-size: cover;
 	background-repeat: no-repeat; 
 	overflow: hidden;
@@ -149,7 +147,7 @@ a:hover{
 .miniatura5 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/flavio-gomes01.png");
+	background-image: url("img/capa-juregina.png");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
@@ -162,12 +160,11 @@ a:hover{
 .miniatura6 {
 	width: 320px;
 	height: 320px;
-	background-image: url("img/skate-solidario01.jpg");
+	background-image: url("img/capa-bkf.png");
 	display: inline-block;
 	margin-right: 25px;
 	margin-bottom: 25px;
 
-	background-position-x: -40px;
 	background-size: cover;
 	background-repeat: no-repeat; 
 	overflow: hidden;
